@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <style>
+        
+        html,body{
+            height: 100%;
+            width: 100%;
+            background-color: gray;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            background-color:black;
+            display: flex;
+            height: 50px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .box1{
+            background: url(Youtube.jpg2.png) center / cover;
+            height: 50px;
+            width: 90px;
+            margin: 10px;
+            display: flex;
+            text-align: start;
+            border-radius: 10px;
+        }
+        input{
+            border-radius: 10px;
+            padding: 5px;
+        }
+        button{
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px;
+        }
+        .duyme{
+            display: flex;
+            justify-content: center;
+            align-items:start;
+            position: absolute;
+            color: black;
+            padding: 10px;
+            left: 160px;
+        }
+        .ad{
+            border: 1px solid gray;
+            background-color: #F2F2F2;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0px 10px;
+            transition: .4s;
+            cursor: pointer;
+        }
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            background-color: gray; 
+            padding: 0px;
+        }
+        .button{
+            font-size: 20px;
+            padding: 7px;
+            margin: 0 0 3px 35px;
+            background-color: #eeeeee;
+            border-radius: 5px;
+            width: 110px;
+            transition: .4s;
+            cursor: pointer;
+            margin: 28px;
+            float: center;
+        }
+       .video{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            top: 150px;
+            left: 220px;
+            flex-wrap: wrap;
+        }
+        .img1 {
+            background: url(unity.jpg.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: left;
+            margin: 10px;
+        }
+        .img2 {
+            background: url(mirage.jpg.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: left;
+            margin: 10px;
+        }
+        .img3 {
+            background: url(origins.jpg.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: left;
+            margin: 10px;
+        }
+        .img4 {
+            background: url(valhalla.jpg.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: left;
+            margin: 10px;
+        }
+        .img5 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 154053.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img6 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 154029.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img7 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 154400.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img8 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 154421.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img9 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 155023.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img10 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 155114.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img11 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 155136.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .img12 {
+            background: url(Ekran\ görüntüsü\ 2024-10-16\ 155202.png) center / cover;
+            border-radius: 5px;
+            width: 350px;
+            height: 200px;
+            float: center;
+            margin: 10px;
+        }
+        .footer{
+            display: flex;
+            height: 5%;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: start;
+            justify-content: start;
+            align-items: start;
+            background-color: black;
+        }
+        .wrap{
+            display: flex;
+            
+        }
+    </style>
+</head>
+<body>
+   <div class="wrap">
+    <div class="header"> 
+        <div class="box1"></div>
+        <div class="box2">
+        <input type="search" placeholder="search">
+        </div>
+        <div class="box3">
+            <button>Giriş yap</button>
+            <button>Üye ol</button>   
+        </div>
+        <div>
+   <div class="main">
+        <div class="duyme">
+            <div class="ad">Tüm</div>
+            <div class="ad">Oyun</div>
+            <div class="ad">Valorant</div>
+            <div class="ad">CS GO</div>
+            <div class="ad">CS GO 2</div>
+            <div class="ad">Arcane legends</div>
+            <div class="ad">Assassin's creed unity</div>
+            <div class="ad">Assassin's creed valhalla</div>
+            <div class="ad">Assassin's creed origins</div>
+            <div class="ad">Assassin's creed odyssey</div>
+            <div class="ad">Assassin's creed shadows</div>
+            <div class="ad">Assassin's creed 1</div>
+            <div class="ad">Assassin's creed 2</div>
+            <div class="ad">Assassin's creed 3</div>
+        </div>
+
+        <div class="video">
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <div class="img4"></div>
+            <div class="img5"></div>
+            <div class="img6"></div>
+            <div class="img7"></div>
+            <div class="img8"></div>
+            <div class="img9"></div>
+            <div class="img10"></div>
+            <div class="img11"></div>
+            <div class="img12"></div>
+        </div>
+
+        <div class="left">
+            <div class="button">Home</div>
+            <div class="button">Shorts</div>
+            <div class="button">Subscriptions</div>
+            <div class="button">History</div>
+            <div class="button">Playlist</div>
+            <div class="button">Watch later</div>
+            <div class="button">Liked videos</div>
+            <div class="button">Trending</div>
+            <div class="button">Gaming</div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
